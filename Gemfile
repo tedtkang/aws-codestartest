@@ -31,6 +31,8 @@ gem 'passenger', '5.2.3'
 gem 'therubyracer', '0.12.3'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'bootsnap',   '1.4.6', require: false
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
