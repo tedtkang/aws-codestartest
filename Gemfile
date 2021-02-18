@@ -33,6 +33,8 @@ gem 'therubyracer', '0.12.3'
 gem 'bootsnap',   '1.4.6', require: false
 
 
+gem 'webpacker',  '4.2.2'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
