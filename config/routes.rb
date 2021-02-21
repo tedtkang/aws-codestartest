@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
-  get 'static_pages/home'
-  get 'static_pages/help'
-  get 'hello_page/hello'
-  root 'static_pages#home'
-  # root 'hello_page#hello'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'users/new'
+  root             'static_pages#home'
+  get 'help'    => 'static_pages#help'
+  get 'about'   => 'static_pages#about'
+  get 'signup'  => 'users#new'
+  # get 'contact' => 'static_pages#contact'
+  
+  ## Didn't make contact page
 end

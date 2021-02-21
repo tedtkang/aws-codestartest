@@ -35,6 +35,7 @@ gem 'bootsnap',   '1.4.6', require: false
 
 gem 'webpacker',  '4.2.2'
 
+gem 'bootstrap-sass'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
